@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['MATLAB', 'Python', 'Julia', 'R', 'JavaScript', 'Microsoft Office Suite'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,33 +135,37 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
-            </p>
-
-            <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
+              Dia duit! My name is Cian Ó Cathasaigh and I have a passion for learning new things,
+              which has led to me developing a personal website for myself. I've always had a
+              fascination in how the world works which stems from an early age of playing Lego and I
+              enjoyed Maths in primary school. This led to my decision to pursue engineering at the{' '}
+              <a href="https://www.usnews.com/education/best-global-universities/ireland/engineering8">
+                top engineering college in Ireland
               </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              <a href="https://www.myucd.ie/courses/engineering/">(University College Dublin)</a>.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>
+              Tá grá ollmhór agam do theanga na Gaeilge (I have a great love for the Irish language)
+              and I love all things related to Irish culture. My biggest passion in life is hurling,
+              which is a traditional Irish sport. I play for my local club,{' '}
+              <a href="https://kilmacudcrokes.com/">Kilmacud Crokes</a>, and have also been
+              fortunate enough to represent my county, Dublin. I've received a{' '}
+              <a href="https://www.ucd.ie/studentcentre/newsopportunities/graduatesportsscholars202425/">
+                graduate sports scholarship
+              </a>{' '}
+              from UCD, which allowed me to continue my studies at a Masters level while playing the
+              sport I love.
+            </p>
+
+            <p>
+              I have developed a keen interest in software development, particularly in the areas of
+              machine learning, structural health monitoring, as well as algorithmic trading. I
+              enjoy working with various technologies and frameworks to build innovative solutions
+              that can make a difference.
+            </p>
+
+            <p>Here are a few programming languages / tools that I’ve experience working with:</p>
           </div>
 
           <ul className="skills-list">

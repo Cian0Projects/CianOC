@@ -1,11 +1,11 @@
 {
-  "name": "v4",
-  "description": "Personal Website V4",
+  "name": "cianoc",
+  "description": "Cian's Personal Website",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Cian Ó Cathasaigh <ciantbocathasaigh@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/Cian0Projects/CianOC"
   },
   "keywords": [
     "gatsby"
@@ -74,6 +74,12 @@
     "gatsby-remark-code-titles": "^1.1.0",
     "husky": "^6.0.0",
     "lint-staged": "^10.1.2",
+    "postcss": "8.4.21",
+    "postcss-loader": "6.2.1",
     "prettier": "^2.2.1"
+  },
+  "resolutions": {
+    "graphql": "^15.8.0",
+    "cheerio": "1.0.0-rc.12"
   }
 }

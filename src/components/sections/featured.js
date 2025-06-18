@@ -41,11 +41,11 @@ const StyledProject = styled.li`
 
   &:nth-of-type(odd) {
     .project-content {
-      grid-column: 7 / -1;
-      text-align: right;
+      grid-column: 6 / -1;
+      text-align: left;
 
       @media (max-width: 1080px) {
-        grid-column: 5 / -1;
+        grid-column: 4 / -1;
       }
       @media (max-width: 768px) {
         grid-column: 1 / -1;
@@ -83,7 +83,7 @@ const StyledProject = styled.li`
       }
     }
     .project-image {
-      grid-column: 1 / 8;
+      grid-column: 1 / 6;
 
       @media (max-width: 768px) {
         grid-column: 1 / -1;
@@ -93,11 +93,11 @@ const StyledProject = styled.li`
 
   .project-content {
     position: relative;
-    grid-column: 1 / 7;
+    grid-column: 1 / 6;
     grid-row: 1 / -1;
 
     @media (max-width: 1080px) {
-      grid-column: 1 / 9;
+      grid-column: 1 / 10;
     }
 
     @media (max-width: 768px) {

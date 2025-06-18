@@ -2,7 +2,7 @@
 date: '1'
 title: "Engineering Masters' Thesis"
 cover: './Thesis.png'
-external: 'https://drive.google.com/file/d/1E8ttCLNVWVM2Owsu6jBxkDcxytGAO7BC/view?usp=drive_link'
+cta: 'https://drive.google.com/file/d/1E8ttCLNVWVM2Owsu6jBxkDcxytGAO7BC/view?usp=drive_link'
 tech:
   - Machine Learning
   - Structural Dynamics

@@ -7,7 +7,6 @@
 <p align="center">
   My personal website where I plan to document my work over the coming months / years, built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a>
 </p>
-
 ![demo](https://raw.githubusercontent.com/Cian0Projects/CianOC/main/src/images/preview.png)
 
 ## 🚨 Forking this repo (please read!)

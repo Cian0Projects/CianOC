@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://cianoc.com/sitemap-index.xml
+Sitemap: https://cianoc.com/CianOC/sitemap-index.xml
 Host: https://cianoc.com

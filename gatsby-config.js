@@ -1,13 +1,14 @@
 const config = require('./src/config');
 
 module.exports = {
+  pathPrefix: '/CianOC',
   siteMetadata: {
     title: 'Cian Ó Cathasaigh',
     description:
       'Cian Ó Cathasaigh is a recent graduate of University College Dublin with an ME in Engineering with Business. He is a civil engineer with a passion for software development, particularly in the areas of machine learning, structural health monitoring and quantitative finance.',
     siteUrl: 'https://cianoc.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

@@ -13,4 +13,4 @@ tech:
 My final year Masters' thesis titled - 'Developing Machine Learning Damage Detection Algorithms for
 Structural Health Monitoring of a Real Bridge'. Successfully detected progressive damage on a real
 bridge using accelerometer data attached to a recently decommisioned bridge. Developed novel techniques
-to improve research in the field of structural health monitoring.
+to improve research in the field of structural health monitoring. Received an A grade for this thesis : )

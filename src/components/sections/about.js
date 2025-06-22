@@ -137,8 +137,10 @@ const About = () => {
             <p>
               Dia duit! My name is Cian Ó Cathasaigh and I have a passion for learning new things,
               which has led to me developing a personal website for myself. I've always had a
-              fascination in how the world works which stems from an early age of playing Lego and I
-              enjoyed Maths in primary school. This led to my decision to pursue engineering at the{' '}
+              fascination in how the world works which stems from an early age playing Lego and
+              watching shows like 'How it's Made' on the Discovery channel. Coupling this interest
+              with my love for problem solving and Maths led to my decision to pursue engineering at
+              the{' '}
               <a href="https://www.usnews.com/education/best-global-universities/ireland/engineering8">
                 top engineering college in Ireland
               </a>{' '}

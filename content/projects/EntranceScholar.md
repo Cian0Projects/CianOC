@@ -2,7 +2,7 @@
 date: '2016-08-01'
 title: 'Entrance Scholar'
 github: ''
-external: 'https://bchiang7.github.io/react-profile/'
+external: 'https://drive.google.com/file/d/1E9TXHOlvZFaXNdv61EgMLExArY61kuz3/view?usp=drive_link'
 tech:
   - Academic Scholarship
 showInProjects: true

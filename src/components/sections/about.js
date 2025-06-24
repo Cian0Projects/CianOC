@@ -141,7 +141,7 @@ const About = () => {
               watching shows like 'How it's Made' on the Discovery channel. Coupling this interest
               with my love for problem solving and Maths led to my decision to pursue engineering at
               the{' '}
-              <a href="https://www.usnews.com/education/best-global-universities/ireland/engineering8">
+              <a href="https://www.usnews.com/education/best-global-universities/ireland/engineering">
                 top engineering college in Ireland
               </a>{' '}
               <a href="https://www.myucd.ie/courses/engineering/">(University College Dublin)</a>.

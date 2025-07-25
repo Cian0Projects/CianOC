@@ -139,12 +139,12 @@ const About = () => {
               which has led to me developing a personal website for myself. I've always had a
               fascination in how the world works which stems from an early age playing Lego and
               watching shows like 'How it's Made' on the Discovery channel. Coupling this interest
-              with my love for problem solving and Maths led to my decision to pursue engineering at
-              the{' '}
-              <a href="https://www.usnews.com/education/best-global-universities/ireland/engineering8">
+              with my love for problem solving and Maths led to my decision to pursue engineering at{' '}
+              <a href="https://www.myucd.ie/courses/engineering/">University College Dublin</a>,
+              which is considered the{' '}
+              <a href="https://www.usnews.com/education/best-global-universities/ireland/engineering">
                 top engineering college in Ireland
-              </a>{' '}
-              <a href="https://www.myucd.ie/courses/engineering/">(University College Dublin)</a>.
+              </a>
             </p>
 
             <p>

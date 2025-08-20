@@ -70,10 +70,10 @@ const Hero = () => {
         I'm a recent graduate with a Masters' degree in engineering from University College Dublin,
         I hold a BSc in Civil Engineering and an ME in Engineering with Business. I love learning
         about new technologies and applying them to real-world problems. I am currently spending my
-        final summer, before I work as a graduate civil engineer, learning about things that
-        interest me, such as the financial markets, structural health monitoring, and machine
-        learning. I plan to work on a few projects that I find interesting, and I will be
-        documenting my progress on this website. I hope you find it useful and enjoyable!
+        summer, after finishing my Masters in Engineering, learning about things that interest me,
+        such as the financial markets, structural health monitoring, and machine learning. I plan to
+        work on a few projects that I find interesting, and I will be documenting my progress on
+        this website. I hope you find it useful and enjoyable!
       </p>
     </>
   );

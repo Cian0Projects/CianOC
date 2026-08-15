@@ -1,18 +1,29 @@
 import React, { useEffect, useRef } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
+import styled from 'styled-components';
 import sr from '@utils/sr';
 import { srConfig } from '@config';
 import { usePrefersReducedMotion } from '@hooks';
 import FeaturedGrid from './featuredGrid';
 
-const Featured = () => {
+const StyledTionscadailSection = styled.section`
+  .tionscadail-intro {
+    max-width: 700px;
+    margin: -20px 0 60px;
+    color: var(--slate);
+    font-size: var(--fz-lg);
+
+    @media (max-width: 768px) {
+      margin: -10px 0 40px;
+    }
+  }
+`;
+
+const Tionscadail = () => {
   const data = useStaticQuery(graphql`
     {
-      featured: allMarkdownRemark(
-        filter: {
-          fileAbsolutePath: { regex: "/content/featured/" }
-          frontmatter: { showInFeatured: { ne: false } }
-        }
+      tionscadail: allMarkdownRemark(
+        filter: { fileAbsolutePath: { regex: "/content/tionscadail/" } }
         sort: { fields: [frontmatter___date], order: ASC }
       ) {
         edges {
@@ -36,8 +47,9 @@ const Featured = () => {
     }
   `);
 
-  const featuredProjects = data.featured.edges.filter(({ node }) => node);
+  const tionscadailProjects = data.tionscadail.edges.filter(({ node }) => node);
   const revealTitle = useRef(null);
+  const revealIntro = useRef(null);
   const revealProjects = useRef([]);
   const prefersReducedMotion = usePrefersReducedMotion();
 
@@ -47,22 +59,29 @@ const Featured = () => {
     }
 
     sr.reveal(revealTitle.current, srConfig());
+    sr.reveal(revealIntro.current, srConfig(100));
     revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
   }, []);
 
   return (
-    <section id="projects">
+    <StyledTionscadailSection id="tionscadail">
       <h2 className="numbered-heading" ref={revealTitle}>
-        Some Things I’ve Worked On
+        Tionscadail
       </h2>
 
+      <p className="tionscadail-intro" ref={revealIntro}>
+        A few things I’ve built on the web. I’m a fluent Irish speaker, and I’m particularly
+        interested in building Irish-language educational technology.
+      </p>
+
       <FeaturedGrid
-        projects={featuredProjects}
-        overline="Featured Project"
+        projects={tionscadailProjects}
+        overline="Web Project"
+        showcase
         revealRefs={revealProjects}
       />
-    </section>
+    </StyledTionscadailSection>
   );
 };
 
-export default Featured;
+export default Tionscadail;

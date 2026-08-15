@@ -27,6 +27,10 @@ module.exports = {
       url: '/#projects',
     },
     {
+      name: 'Tionscadail',
+      url: '/#tionscadail',
+    },
+    {
       name: 'Contact',
       url: '/#contact',
     },

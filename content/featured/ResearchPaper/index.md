@@ -3,6 +3,7 @@ date: '3'
 title: "Masters' Research Paper"
 cover: './Cover-Page-Research-Paper-1.png'
 cta: 'https://drive.google.com/file/d/1z5dwtX48A45Fl2Fw2_erwWLwlD97OsSS/view?usp=drive_link'
+showInFeatured: false
 tech:
   - Unsupervised ML
   - Deep Autoencoder

@@ -1,4 +1,11 @@
 {
   "root": true,
-  "extends": "@upstatement/eslint-config/react"
+  "extends": "@upstatement/eslint-config/react",
+  "overrides": [
+    {
+      "files": ["scripts/**/*.js"],
+      "env": { "node": true },
+      "rules": { "no-console": "off" }
+    }
+  ]
 }

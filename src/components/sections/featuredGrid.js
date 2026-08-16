@@ -317,6 +317,15 @@ const StyledProject = styled.li`
           filter: none;
           border: 1px solid var(--lightest-navy);
         }
+
+        /* Screenshots come in whatever aspect ratio the app happens to be.
+           Cap the height so a portrait one can't tower over the row and
+           outweigh the projects above it; letterbox rather than crop. */
+        img {
+          max-height: 420px;
+          object-fit: contain;
+          object-position: center;
+        }
       }
 
       /* On mobile the base styles overlap the image and the text in a single
@@ -348,6 +357,10 @@ const StyledProject = styled.li`
           width: 100%;
           height: auto;
           filter: none;
+        }
+
+        .project-image img {
+          max-height: 340px;
         }
 
         .project-description {

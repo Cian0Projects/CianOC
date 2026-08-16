@@ -67,13 +67,13 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I'm a recent graduate with a Masters' degree in engineering from University College Dublin,
-        I hold a BSc in Civil Engineering and an ME in Engineering with Business. I love learning
-        about new technologies and applying them to real-world problems. I am currently spending my
-        summer, after finishing my Masters in Engineering, learning about things that interest me,
-        such as the financial markets, structural health monitoring, and machine learning. I plan to
-        work on a few projects that I find interesting, and I will be documenting my progress on
-        this website. I hope you find it useful and enjoyable!
+        I hold a BSc in Civil Engineering and an ME in Engineering with Business from University
+        College Dublin, graduating with first class honours in both. I currently work as an engineer
+        at a civil engineering consultancy, working on bridge-related projects alongside structural
+        health monitoring software development. I'm a big Gaeilgeoir, and outside of engineering,
+        maths and physics you'll usually find me involved in sport. I also work on a few personal
+        projects that interest me, which I document on this website. I hope you find it useful and
+        enjoyable!
       </p>
     </>
   );

@@ -1,11 +1,13 @@
 ---
 date: '2024-06-02'
-title: 'Placement Civil Engineer'
+title: 'Bridge / Research Engineer'
 company: "Roughan & O'Donovan"
 location: 'Dublin, Irl'
-range: 'June - December 2024'
+range: 'June 2024 - Present'
 url: 'https://www.rod.ie/'
 ---
+
+- Developed proprietary bridge monitoring software to analyse structural health monitoring data on a large suspension bridge in the UK.
 
 - Co-authored the 'AI in the Road Sector' international research report, driving the project by conducting stakeholder interviews, analysing survey data, conducting a literature review, and writing key sections of the final publication
 

@@ -71,9 +71,9 @@ const Hero = () => {
         College Dublin, graduating with first class honours in both. I currently work as an engineer
         at a civil engineering consultancy, working on bridge-related projects alongside structural
         health monitoring software development. I'm a big Gaeilgeoir, and outside of engineering,
-        maths and physics you'll usually find me involved in sport. I also work on a few personal
-        projects that interest me, which I document on this website. I hope you find it useful and
-        enjoyable!
+        maths and physics you'll usually find me involved in sport, an iomáint ach go háirithe. I
+        also work on a few personal projects that interest me, which I document on this website. I
+        hope you find it useful and enjoyable!
       </p>
     </>
   );
